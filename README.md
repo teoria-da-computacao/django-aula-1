@@ -1,4 +1,4 @@
-# aula-1: Aplicações Web desenvolvidas na aula
+# Aplicações Web desenvolvidas na aula
 
 ### Passos para lançar e editar a aplicação
 1. Abra a linha de comandos (PowerShell ou cmd)
