@@ -1,0 +1,23 @@
+{% extends 'website\layout.html' %}
+
+{% block content %}
+
+    {% if hora < 12 %}
+        <p>Bom dia!</p>
+    {% else %}
+        <p>Boa tarde!</p>
+    {% endif %}
+
+    <p>Bemvindo ao nosso website 😜</p>
+
+    <p>Lista dos meus amigos:</p>
+    <ul>
+        {% for amigo in amigos %}
+            <li> {{ amigo }} </li>
+        {% endfor %}
+    </ul>
+
+
+    <p>Agora são {{hora}}h{{minuto}}m{{segundo}}s </p>
+
+{% endblock %}

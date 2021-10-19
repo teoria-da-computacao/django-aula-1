@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    {% load static %}
+    <link rel="stylesheet" href=" {% static 'website\estilos.css'%} ">
+</head>
+<body>
+    <h1>O meu primeiro Website</h1>
+    <p>
+        <a href=" {% url 'index' %} ">Index</a>
+        <a href=" {% url 'about' %} ">About</a>
+    </p>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
