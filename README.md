@@ -2,7 +2,7 @@
 
 ### Passos para lançar e editar a aplicação
 1. Abra a linha de comandos (PowerShell ou cmd)
-1. Descarregue uma cópia (clone) do repositório com o comando `git clonehttps://github.com/teoria-da-computacao/aula-1` ou descarregue o projeto como um zip e descompacte
+1. Descarregue uma cópia (clone) do repositório com o comando `git clone https://github.com/teoria-da-computacao/aula-1` ou descarregue o projeto como um zip e descompacte
 1. Entre na pasta  `cd aula-1`
 2. Crie e instale um ambiente virtual. Use o pipenv.
     1. Instale o pipenv `python -m pip install pipenv`
